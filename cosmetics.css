@@ -1,7 +1,8 @@
 h1{
     color: rgb(14, 19, 19);
-    font-size: 50px;
-    line-height: 4px;
+    font-size: 8vw;
+    line-height: 1.2;
+  
     
 }
 header :hover{
@@ -11,10 +12,13 @@ header :hover{
     
 }
 body{
+    margin: 0;
     background-color: rgb(0, 0, 0);
     text-align: center;
     background-image: url("myimage.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
 }
 main{
     margin: 10px;
@@ -24,6 +28,7 @@ main{
     position: fixed;
     top: 390px;
     left: 382px;
+    max-width: 20vw;
 }
 #image2{
     position: fixed;
@@ -32,6 +37,7 @@ main{
     border: 5px;
     border-style: solid;
     border-color: black;
+    max-width: 40vw;
 }
 #image1{
     position:fixed;
@@ -46,12 +52,14 @@ main{
     position: fixed;
     top: 390px;
     left: 730px;
+    max-width: 20vw;
 }
 p{
      position: fixed;
     top: 450px;
     left: 470px;
     color: deeppink;
+    font-size: 4vw;
 }
 div :hover{
     background-color:rgb(26, 77, 66);
