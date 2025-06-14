@@ -23,15 +23,19 @@ body{
 main{
     margin: 10px;
 }
-
-#logo{
+#image1,
+#image2,
+#logo,
+#logo1,
+p {
     position: fixed;
+}
+#logo{
     top: 390px;
     left: 382px;
     max-width: 20vw;
 }
 #image2{
-    position: fixed;
     top: 100px;
     left: 650px;
     border: 5px;
@@ -40,7 +44,6 @@ main{
     max-width: 40vw;
 }
 #image1{
-    position:fixed;
     top:100px;
     left: 360px;
     border: 5px;
@@ -49,13 +52,11 @@ main{
 }
 
 #logo1{
-    position: fixed;
     top: 390px;
     left: 730px;
     max-width: 20vw;
 }
 p{
-     position: fixed;
     top: 450px;
     left: 470px;
     color: deeppink;
@@ -88,7 +89,7 @@ div :hover{
     #logo,
     #logo1,
     p {
-        position: static ;
+        position: static;
         display: block;
         margin: 20px auto;
         text-align: center;
