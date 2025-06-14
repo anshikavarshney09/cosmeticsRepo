@@ -61,7 +61,7 @@ p {
     max-width: 20vw;
 }
 p {
-  position: static;
+  display: block;
   color: deeppink;
   font-size: 1.3vw;
   margin: 40px auto 0;
