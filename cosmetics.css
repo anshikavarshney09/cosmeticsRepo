@@ -22,13 +22,14 @@ body{
 }
 main{
     margin: 10px;
+    position: relative;
 }
 #image1,
 #image2,
 #logo,
 #logo1,
 p {
-    position: fixed;
+    position: absolute;
 }
 #logo{
     top: 390px;
@@ -83,13 +84,13 @@ div :hover{
     color: beige;
      transition-duration: 2s ;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     #image1,
     #image2,
     #logo,
     #logo1,
     p {
-        position: static;
+        position: static !important;
         display: block;
         margin: 20px auto;
         text-align: center;
@@ -101,7 +102,7 @@ div :hover{
     }
 
     h1 {
-        font-size: 9vw;
+        font-size: 8vw;
     }
 
     button,
