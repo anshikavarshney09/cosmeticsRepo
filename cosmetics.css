@@ -28,11 +28,14 @@ main{
     position: relative;
 }
 #image1,
-#image2,
+#image2
+{
+    position: absolute;
+}
 #logo,
 #logo1
 {
-    position: absolute;
+    position: static;
 }
 #logo{
     top: 390px;
