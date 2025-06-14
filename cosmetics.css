@@ -85,6 +85,10 @@ div :hover{
      transition-duration: 2s ;
 }
 @media (max-width: 768px) {
+    h1 {
+        font-size: 8vw;
+    }
+
     #image1,
     #image2,
     #logo,
@@ -101,10 +105,7 @@ div :hover{
         height: auto;
     }
 
-    h1 {
-        font-size: 8vw;
-    }
-
+    
     button,
     input[type="submit"] {
         font-size: 4.5vw;
