@@ -111,4 +111,8 @@ div :hover{
         padding: 10px;
         max-width: 80%;
     }
+    p{
+        font-size: 4vw;
+        padding: 10px;
+    }
 }
