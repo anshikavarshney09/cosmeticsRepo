@@ -60,11 +60,14 @@ p {
     left: 730px;
     max-width: 20vw;
 }
-p{
-    margin-top: 520px;
-    color: deeppink;
-    font-size: 4vw;
+p {
+  text-align: center;
+  margin: 40px auto 0;
+  font-size: 1.3vw;
+  color: deeppink;
+  width: fit-content;
 }
+
 div :hover{
     background-color:rgb(26, 77, 66);
     color: beige;
