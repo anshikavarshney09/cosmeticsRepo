@@ -61,8 +61,7 @@ p {
     max-width: 20vw;
 }
 p{
-    top: 450px;
-    left: 470px;
+    margin-top: 520px;
     color: deeppink;
     font-size: 4vw;
 }
