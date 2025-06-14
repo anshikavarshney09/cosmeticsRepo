@@ -30,8 +30,8 @@ main{
 #image1,
 #image2,
 #logo,
-#logo1,
-p {
+#logo1
+{
     position: absolute;
 }
 #logo{
@@ -64,9 +64,9 @@ p {
   display: block;
   color: deeppink;
   font-size: 1.3vw;
-  margin: 40px auto 0;
+  margin: 60px auto 0;
   text-align: center;
-  width: 100%; 
+  width: fit-content; 
 }
 
 
