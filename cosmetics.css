@@ -33,7 +33,7 @@ main{
     position: absolute;
 }
 #image1{
-    top:100px;
+    top:90px;
     left: 360px;
     border: 5px;
     border-style: solid;
@@ -41,7 +41,7 @@ main{
     max-width: 40vw;
 }
 #image2{
-    top: 100px;
+    top: 90px;
     left: 650px;
     border: 5px;
     border-style: solid;
@@ -54,18 +54,18 @@ main{
     position: absolute;
 }
 #logo{
-    top: 390px;
+    top: 380px;
     left: 382px;
     max-width: 20vw;
 }
 #logo1{
-    top: 390px;
+    top: 380px;
     left: 730px;
     max-width: 20vw;
 }
 p {
    position: absolute;
-  top: 470px;
+  top: 460px;
   left: 50%;
   transform: translateX(-50%);
   color: deeppink;
