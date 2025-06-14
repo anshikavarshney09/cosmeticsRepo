@@ -1,6 +1,6 @@
 h1{
     color: rgb(14, 19, 19);
-    font-size: 8vw;
+    font-size: 3vw;
     line-height: 1.2;
   
     
@@ -18,7 +18,7 @@ body{
     background-image: url("myimage.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
 }
 main{
     margin: 10px;
@@ -88,7 +88,7 @@ div :hover{
     #logo,
     #logo1,
     p {
-        position: static;
+        position: static ;
         display: block;
         margin: 20px auto;
         text-align: center;
@@ -100,12 +100,12 @@ div :hover{
     }
 
     h1 {
-        font-size: 10vw;
+        font-size: 9vw;
     }
 
     button,
     input[type="submit"] {
-        font-size: 4vw;
+        font-size: 4.5vw;
         padding: 10px;
         max-width: 80%;
     }
